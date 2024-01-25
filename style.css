@@ -1,8 +1,4 @@
- {
-  webkit-text-size-adjust: 100%;
-  webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  success: #2c632c;
-  light-gray: #595959;
+.btn-login {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   list-style: none;
   box-sizing: border-box;
@@ -15,14 +11,91 @@
   background-image: none;
   border: 1px solid transparent;
   padding: 6px 12px;
+  background-color: #305b80;
+  box-shadow: 0px 5px 0px 0px #357cbd;
   line-height: 1.42857143;
   user-select: none;
   font-weight: 700;
-  background-color: #305b80;
-  box-shadow: 0px 5px 0px 0px #357cbd;
   font-size: 12px;
   cursor: pointer;
   margin-bottom: 0;
   border-radius: 5px;
   color: #ffffff;
+}
+
+.btn-subscribe {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #ce3323;
+  line-height: 1.42857143;
+  user-select: none;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.btn-primary {
+  border: none;
+  background-color: #ba3838;
+  box-shadow: 0 5px #9f1f1f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px 5px;
+  text-decoration: none;
+  margin: 0 auto 20px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  white-space: normal;
+}
+
+.btn-instant-login {
+  border: none;
+  background-color: #305b80;
+  box-shadow: 0 5px #357cbd;
+  border-color: #357cbd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px 5px;
+  text-decoration: none;
+  margin: 0 auto 20px;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  line-height: normal;
+  white-space: normal;
+}
+
+#user-modal-tab-login {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --success: #2c632c;
+  --light-gray: #595959;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  background: #e3e9f0;
 }

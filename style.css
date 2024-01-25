@@ -1,0 +1,28 @@
+ {
+  webkit-text-size-adjust: 100%;
+  webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  success: #2c632c;
+  light-gray: #595959;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  user-select: none;
+  font-weight: 700;
+  background-color: #305b80;
+  box-shadow: 0px 5px 0px 0px #357cbd;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius: 5px;
+  color: #ffffff;
+}
